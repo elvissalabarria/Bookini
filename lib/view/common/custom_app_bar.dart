@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class CustomAppBar extends StatelessWidget with PreferredSizeWidget {
+class CustomAppBar extends StatelessWidget  {
   const CustomAppBar({super.key, required this.leading, required this.action});
 
   final Widget leading;
